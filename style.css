@@ -60,14 +60,59 @@ li{
 
 /* main section  */
 
-.feature-section{
+.feature-section, .experience{
     padding: 45px 240px;
     display: flex;
 }
-.features-details{
+.features-details {
     padding: 200px 70px;
 }
 .features-img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+/* section 2 style  */
+.experiences{
+    display: flex;
+}
+.love{
+    width: 50%;
+    padding-right: 140px;
+}
+.love-enjoy{
+    color: var(--Dark-01, #131313);
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.card{
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom:20px ;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.architect-img{
+    width: 50%;
+}
+
+.button-2{
+    margin-bottom: 50px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 40px 45px;
+    margin-top: -170px;
+    margin-left: -80px;
+  
+}
+.year{
+    color: #FFF;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
 }

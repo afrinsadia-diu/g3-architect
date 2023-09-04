@@ -67,7 +67,15 @@ li{
     padding: 45px 240px;
     display: flex;
 }
-
+.hr{
+    width: 7px;
+    margin-right: 2px;
+    /* height: 110px; */
+    background-color: #FF900E;
+}
+.hr-title{
+    display: flex;
+}
 .features-details {
     padding: 200px 70px;
 }

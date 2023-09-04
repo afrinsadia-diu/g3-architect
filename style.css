@@ -45,6 +45,9 @@ li{
     line-height: 26px;
     margin:30px 0px;
 }
+#explore-button{
+    text-align: center;
+}
 .button{
     margin-bottom: 50px;
     border-radius: 8px;
@@ -60,10 +63,11 @@ li{
 
 /* main section  */
 
-.feature-section, .experience{
+.feature-section, .experience {
     padding: 45px 240px;
     display: flex;
 }
+
 .features-details {
     padding: 200px 70px;
 }
@@ -80,7 +84,7 @@ li{
     width: 50%;
     padding-right: 140px;
 }
-.love-enjoy{
+.love-enjoy, .fact-title{
     color: var(--Dark-01, #131313);
     font-size: 45px;
     font-weight: 700;
@@ -115,4 +119,27 @@ li{
     text-align: center;
     font-size: 65px;
     font-weight: 700;
+}
+
+.fact-section{
+    padding: 45px 240px;
+}
+.achivements{
+    display: grid;
+    /* justify-content: center; */
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.achieves{
+    padding: 50px 30px;
+    border: 1px solid #FF900E;
+}
+.icons{
+    padding-left: 30px;
+}
+.amount{
+    color: var(--Dark-02, #424242);;
+    font-size: 45px;
+    font-weight: 600;
 }
